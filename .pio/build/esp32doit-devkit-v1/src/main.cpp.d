@@ -133,7 +133,8 @@
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.h \
+ C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
@@ -194,6 +195,18 @@
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/ArduinoWebsockets.h \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/message.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/internals/ws_common.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/ws_config_defs.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/esp32/esp32_tcp.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_client.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_socket.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_server.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/generic_esp/generic_esp_clients.hpp \
+ C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.h \
+ C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/ssl_client.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/platform.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/mbedtls/esp_config.h \
@@ -232,18 +245,13 @@
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/aes/esp_aes.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/aes_types.h \
  C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/error.h \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/ArduinoWebsockets.h \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/message.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/internals/ws_common.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/ws_config_defs.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/esp32/esp32_tcp.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_client.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_socket.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/tcp_server.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/network/generic_esp/generic_esp_clients.hpp \
- C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.h \
- C:/Users/Arman/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
  C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/internals/data_frame.hpp \
  C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/client.hpp \
  C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/internals/websockets_endpoint.hpp \
- C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/server.hpp
+ C:/Users/Arman/.platformio/lib/ArduinoWebsockets-master/src/tiny_websockets/server.hpp \
+ C:/Users/Arman/.platformio/lib/LiquidCrystal_I2C/LiquidCrystal_I2C.h \
+ .pio/libdeps/esp32doit-devkit-v1/arduinoFFT/src/arduinoFFT.h \
+ .pio/libdeps/esp32doit-devkit-v1/arduinoFFT/src/enumsFFT.h \
+ C:/Users/Arman/.platformio/lib/ArduinoJson/src/ArduinoJson.h \
+ C:/Users/Arman/.platformio/lib/ArduinoJson/src/ArduinoJson.hpp \
+ C:/Users/Arman/.platformio/lib/ArduinoJson/src/ArduinoJson/Configuration.hpp
